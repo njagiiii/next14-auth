@@ -1,10 +1,16 @@
+
+
 import { RegisterForm } from '@/components/auth/RegisterForm'
-import React from 'react'
+import { Suspense } from 'react'
+
 
 
 const RegisterPage = () => {
   return (
-   <RegisterForm/>
+    <Suspense>
+      <RegisterForm/>
+    </Suspense>
+   
   )
 }
 

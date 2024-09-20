@@ -1,12 +1,16 @@
 
-import React from 'react'
-import NewVerificationForm from '@/components/auth/NewVerificationForm'
 
-const NewVerificationPage = () => {
+import NewVerificationForm from '@/components/auth/NewVerificationForm'
+import { Suspense } from 'react'
+
+const NewVerification = () => {
   return (
-   <NewVerificationForm />
+    <Suspense>
+      <NewVerificationForm />
+    </Suspense>
+    
   )
 }
 
-export default NewVerificationPage 
+export default NewVerification
 
