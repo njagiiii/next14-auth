@@ -8,11 +8,11 @@ export const publicRoutes = [
 // routes for authentication will redirect users to /settings
 
 export const authRoutes = [
-    "/login",
-    "/register",
-    "/error",
-    "/reset",
-    "/new-password"
+    "auth/login",
+    "auth/register",
+    "auth/error",
+    "auth/reset",
+    "auth/new-password",
 ]
 
 export const apiAuthPrefix = "/api/auth"
